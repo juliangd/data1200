@@ -1,0 +1,26 @@
+
+.banner {
+
+}
+
+.menu-container {
+
+
+}
+
+.menu-card {
+
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+
+}
+
+.card-details {
+  padding-top: 25px
+  ;
+}
