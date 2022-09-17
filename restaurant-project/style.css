@@ -4,7 +4,6 @@ body {
 
 .banner {
   display: flex;
-  background-image: url('images/clem-onojeghuo-zlABb6Gke24-unsplash.jpg');
   filter: grayscale(60%);
   height: 500px;
   width: 100%;
@@ -18,11 +17,11 @@ body {
 margin: 20px;
 padding: 40px;
 
-
 }
 
 .container h1 {
   color: white;
+  font-size: 78px;
 }
 
 
@@ -36,6 +35,11 @@ padding: 40px;
 
 .menu-card h2 {
   text-align: center;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 70px;
 }
 
 .menu-card {
@@ -67,4 +71,20 @@ padding: 40px;
   margin-top: 5px;
   margin-right: 10px;
   padding: 10px;
+}
+
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  list-style: none;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
 }
