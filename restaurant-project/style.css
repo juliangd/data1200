@@ -1,26 +1,70 @@
+body {
+  background-color: antiquewhite;
+}
 
 .banner {
+  display: flex;
+  background-image: url('images/clem-onojeghuo-zlABb6Gke24-unsplash.jpg');
+  filter: grayscale(60%);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  align-items: end;
+  justify-content: center;
 
 }
 
+.container {
+margin: 20px;
+padding: 40px;
+
+
+}
+
+.container h1 {
+  color: white;
+}
+
+
+
 .menu-container {
+  width: fit-content;
+  height: auto;
+  margin: auto;
 
+}
 
+.menu-card h2 {
+  text-align: center;
 }
 
 .menu-card {
+  margin: 40px;
+  padding: 10px;
 
 }
 
 .card {
-  width: 300px;
+  width: 500px;
+  height: 220px;
   display: flex;
   justify-content: space-between;
   align-items: top;
+  margin: 5px;
+  padding: 10px;
+  border: 2px black solid;
 
 }
 
+.card-content {
+  display: grid;
+  margin-left: 10px;
+  padding: 10px;
+}
+
 .card-details {
-  padding-top: 25px
-  ;
+  display: grid;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 10px;
 }
